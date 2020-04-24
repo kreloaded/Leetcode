@@ -27,6 +27,8 @@ cache.get(4);       // returns 4
 
 */
 
+// Java solution : LinkedHashMap
+
 class LRUCache {
     
     private LinkedHashMap<Integer, Integer> cache;
